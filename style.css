@@ -3,3 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: grid;
+  grid:
+    "sd hd"
+    "sd hd"
+    "sd ma";
+}
+
+header {
+  grid-area: hd;
+  background-color: azure;
+}
+
+aside {
+  grid-area: sd;
+  background-color: cornflowerblue;
+}
+
+main {
+  grid-area: ma;
+  background-color: burlywood;
+}
