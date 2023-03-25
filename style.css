@@ -8,8 +8,13 @@ body {
   display: grid;
   grid:
     "sd hd"
-    "sd hd"
     "sd ma";
+}
+
+header,
+aside,
+main {
+  padding: 1rem;
 }
 
 header {
@@ -17,9 +22,25 @@ header {
   background-color: azure;
 }
 
+nav {
+  display: contents;
+}
+
 aside {
   grid-area: sd;
+  display: grid;
+  gap: 2rem;
+  justify-items: start;
+  align-items: start;
   background-color: cornflowerblue;
+  grid-template-rows: 1rem 10rem 5rem;
+}
+
+
+
+aside section {
+  display: grid;
+  gap: 0.5rem;
 }
 
 main {
