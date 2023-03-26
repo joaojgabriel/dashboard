@@ -27,7 +27,7 @@ header {
     "sr pf" 1.5rem
     "gr ac"
     / 3fr 2fr;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 header > * {
@@ -38,6 +38,19 @@ header > * {
 
 header .search {
   grid-template-columns: 20px;
+}
+
+header .profile {
+  grid-template-columns: 1fr 8ch 1fr;
+  justify-items: start;
+}
+
+header .profile .avatar {
+  justify-self: center;
+}
+
+header .profile button {
+  justify-self: end;
 }
 
 nav {
