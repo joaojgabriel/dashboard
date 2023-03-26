@@ -7,7 +7,7 @@
 body {
   display: grid;
   grid:
-    "sd hd" 200px
+    "sd hd" 125px
     "sd ma" / 175px;
   min-height: 100vh;
 }
