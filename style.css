@@ -7,7 +7,7 @@
 body {
   display: grid;
   grid:
-    "sd hd"
+    "sd hd" 200px
     "sd ma" / 175px;
   min-height: 100vh;
 }
@@ -21,6 +21,19 @@ main {
 header {
   grid-area: hd;
   background-color: azure;
+  display: grid;
+  justify-self: stretch;
+  grid:
+    "sr pf" 1.5rem
+    "gr ac"
+    / 3fr 2fr;
+  gap: 1rem;
+}
+
+header > * {
+  display: grid;
+  grid-auto-flow: column;
+  gap: .5rem;
 }
 
 nav {
@@ -36,8 +49,6 @@ aside {
   background-color: cornflowerblue;
   grid-template-rows: 1rem 10rem 5rem;
 }
-
-
 
 aside section {
   display: grid;
