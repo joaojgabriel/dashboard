@@ -20,20 +20,19 @@ main {
 
 header {
   grid-area: hd;
+  padding: 1rem 2rem;
   background-color: azure;
   display: grid;
   justify-self: stretch;
-  grid:
-    "sr pf" 1.5rem
-    "gr ac"
-    / 3fr 2fr;
+  grid-template-rows: 1.5rem;
+  grid-template-columns: 3fr 2fr;
   gap: 2rem;
 }
 
 header > * {
   display: grid;
   grid-auto-flow: column;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 header .search {
@@ -51,6 +50,12 @@ header .profile .avatar {
 
 header .profile button {
   justify-self: end;
+}
+
+header .greeting {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  align-items: center;
 }
 
 nav {
