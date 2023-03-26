@@ -64,6 +64,14 @@ header .greeting {
 main {
   grid-area: ma;
   background-color: burlywood;
+  display: grid;
+  grid:
+    "projects announcements"
+    "projects trending" / 4fr 1fr;
+}
+
+main #projects {
+  grid-area: projects;
 }
 
 /* Sidebar */
