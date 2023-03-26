@@ -36,6 +36,10 @@ header > * {
   gap: .5rem;
 }
 
+header .search {
+  grid-template-columns: 20px;
+}
+
 nav {
   display: contents;
 }
