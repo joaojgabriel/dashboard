@@ -9,11 +9,23 @@
   </head>
   <body>
     <header>
-      <div class="search">Search</div>
-      <div class="profile"><img src="" alt="" /><span></span></div>
-      <div class="personalized-greeting">
-        <img src="" alt="" /><span class="hi">Hi there,</span
-        ><span class="user"></span>
+      <div class="search">
+        <button><div class="icon">Search</div></button>
+        <label for="search"><span style="display: none">Search</span></label
+        ><input type="text" id="search" />
+      </div>
+      <div class="profile">
+        <div class="icon">Bell</div>
+        <div class="avatar">Avatar</div>
+        <span class="user">User</span>
+      </div>
+      <div class="greeting">
+        <div>Avatar</div>
+        <p class="hi">Hi there,</p>
+        <p>
+          <span class="user">User</span>
+          <span id="userhandle">(@userhandle)</span>
+        </p>
       </div>
       <div class="actions">
         <button type="button">New</button><button type="button">Upload</button
