@@ -8,8 +8,8 @@
 body {
   display: grid;
   grid:
-    "sd hd" 125px
-    "sd ma" / 175px;
+    "sidebar header" 125px
+    "sidebar main" / 175px;
   min-height: 100vh;
 }
 
@@ -21,7 +21,6 @@ main {
 
 /* Header */
 header {
-  grid-area: hd;
   padding: 1rem 2rem;
   background-color: azure;
   display: grid;
@@ -62,7 +61,6 @@ header .greeting {
 
 /* Main */
 main {
-  grid-area: ma;
   background-color: burlywood;
   display: grid;
   grid:
@@ -80,7 +78,7 @@ nav {
 }
 
 aside {
-  grid-area: sd;
+  grid-area: sidebar;
   display: grid;
   gap: 2rem;
   justify-items: start;
