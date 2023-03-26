@@ -8,7 +8,8 @@ body {
   display: grid;
   grid:
     "sd hd"
-    "sd ma";
+    "sd ma" / 175px;
+  min-height: 100vh;
 }
 
 header,
