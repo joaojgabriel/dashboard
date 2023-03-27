@@ -65,7 +65,7 @@ main {
   display: grid;
   grid:
     "projects announcements"
-    "projects trending" / 6fr 1fr;
+    "projects trending" / 4fr 1fr;
   gap: 1rem;
 }
 
@@ -77,6 +77,13 @@ main #projects .wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem 1.5rem;
+}
+
+main #trending .wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  align-items: center;
+  gap: 2rem 1rem;
 }
 
 /* Sidebar */
