@@ -65,11 +65,18 @@ main {
   display: grid;
   grid:
     "projects announcements"
-    "projects trending" / 4fr 1fr;
+    "projects trending" / 6fr 1fr;
+  gap: 1rem;
 }
 
 main #projects {
   grid-area: projects;
+}
+
+main #projects .wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem 1.5rem;
 }
 
 /* Sidebar */
