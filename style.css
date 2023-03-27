@@ -24,9 +24,8 @@ header {
   padding: 1rem 2rem;
   background-color: azure;
   display: grid;
-  justify-self: stretch;
   grid-template-rows: 1.5rem;
-  grid-template-columns: 3fr 2fr;
+  grid-template-columns: 4fr 1fr;
   gap: 2rem;
 }
 
@@ -41,16 +40,8 @@ header .search {
 }
 
 header .profile {
-  grid-template-columns: 1fr 8ch 1fr;
-  justify-items: start;
-}
-
-header .profile .avatar {
-  justify-self: center;
-}
-
-header .profile button {
-  justify-self: end;
+  grid-template-columns: 1fr;
+  justify-items: end;
 }
 
 header .greeting {
