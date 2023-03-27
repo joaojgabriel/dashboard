@@ -70,10 +70,19 @@ main #projects .wrapper {
 }
 
 main #projects .project {
+  display: grid;
+  grid-template-rows: 125px 20px;
   border-left: 0.5rem solid grey;
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   padding: 2rem 1rem;
+}
+
+main #projects .project .buttons {
+  justify-self: end;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1.5rem;
 }
 
 main #trending .wrapper {
