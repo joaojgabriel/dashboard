@@ -36,7 +36,7 @@ header > * {
 }
 
 header .search {
-  grid-template-columns: 20px;
+  grid-template-columns: min-content min(80%, 1000px);
 }
 
 header .profile {
@@ -66,8 +66,9 @@ main #projects {
 
 main #projects .wrapper {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 2rem 1.5rem;
+  grid-auto-flow: row;
 }
 
 main #trending .wrapper {
