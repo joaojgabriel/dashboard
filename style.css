@@ -69,13 +69,19 @@ main #projects .wrapper {
   grid-auto-flow: row;
 }
 
+/* Cards */
+main #projects .project,
+main #trending .wrapper,
+main #announcements .wrapper {
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+}
+
 main #projects .project {
   display: grid;
   grid-template-rows: minmax(min-content, 150px) auto;
   border-left: 0.5rem solid grey;
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  padding: 2rem;
   padding-left: 1.5rem;
 }
 
