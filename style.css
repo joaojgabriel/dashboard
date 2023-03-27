@@ -71,7 +71,7 @@ main #projects .wrapper {
 
 main #projects .project {
   display: grid;
-  grid-template-rows: 125px 20px;
+  grid-template-rows: minmax(min-content, 150px) auto;
   border-left: 0.5rem solid grey;
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
