@@ -55,7 +55,7 @@ main {
   grid:
     "projects announcements"
     "projects trending" / 4fr 1fr;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 main #projects {
@@ -65,7 +65,7 @@ main #projects {
 main #projects .wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 2rem 1.5rem;
+  gap: 2rem;
   grid-auto-flow: row;
 }
 
