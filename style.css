@@ -69,6 +69,13 @@ main #projects .wrapper {
   grid-auto-flow: row;
 }
 
+main #projects .project {
+  border-left: 0.5rem solid grey;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 2rem 1rem;
+}
+
 main #trending .wrapper {
   display: grid;
   grid-template-columns: repeat(2, max-content);
