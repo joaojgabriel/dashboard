@@ -21,7 +21,7 @@ main {
 
 /* Header */
 header {
-  padding: 2rem 4rem;
+  padding: 1.5rem 4rem;
   display: grid;
   grid-template-rows: 1.5rem;
   grid-template-columns: 4fr 1fr;
@@ -132,6 +132,7 @@ nav {
 }
 
 aside {
+  padding: 1.5rem;
   grid-area: sidebar;
   display: grid;
   gap: 2rem;
