@@ -57,12 +57,12 @@ main {
     "projects trending" / 4fr 1fr;
   gap: 2rem;
   margin: 2rem;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 main h2 {
   font-size: 1.4em;
-  margin-bottom: .8em;
+  margin-bottom: 0.8em;
 }
 
 main #projects {
@@ -99,9 +99,18 @@ main #projects .project .buttons {
   gap: 1.5rem;
 }
 
+main #announcements .wrapper .announcement:first-child {
+  padding: 0 0.5em 1em;
+}
+
 main #announcements .wrapper .announcement:nth-child(2) {
+  padding: 1em 0.5em;
   border: 0 solid rgba(128, 128, 128, 0.5);
-  border-width: .2em 0;
+  border-width: 0.2em 0;
+}
+
+main #announcements .wrapper .announcement:last-child {
+  padding: 1em 0.5em 0;
 }
 
 main #trending .wrapper {
