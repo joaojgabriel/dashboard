@@ -55,7 +55,7 @@ main {
   display: grid;
   grid:
     "projects announcements"
-    "projects trending" / 4fr 1fr;
+    "projects trending" / 4.5fr 1fr;
   gap: 2rem;
   padding: 3rem;
   padding-left: 2rem;
@@ -126,7 +126,7 @@ main #trending .wrapper {
   gap: 2rem 1rem;
 }
 
-main #trending .wrapper .handle{
+main #trending .wrapper .handle {
   font-weight: bold;
 }
 
