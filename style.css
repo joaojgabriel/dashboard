@@ -6,6 +6,7 @@
 
 html {
   --top-distance: 1.5rem;
+  --user-color: grey;
 }
 
 /* General Layout */
@@ -95,7 +96,7 @@ main #projects .wrapper {
 main #projects .project {
   display: grid;
   grid-template-rows: minmax(min-content, 150px) auto;
-  border-left: 0.5rem solid grey;
+  border-left: 0.5rem solid var(--user-color);
   padding-left: 1.5rem;
 }
 
