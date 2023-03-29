@@ -50,6 +50,11 @@ header .greeting {
   align-items: center;
 }
 
+header .actions button {
+  border-radius: 20px;
+  border: none;
+}
+
 /* Main */
 main {
   display: grid;
