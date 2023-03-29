@@ -7,6 +7,7 @@
 html {
   --top-distance: 1.5rem;
   --user-color: grey;
+  --platform-color: rgb(100, 100, 100)
 }
 
 /* General Layout */
@@ -52,6 +53,7 @@ header .greeting {
 header .actions button {
   border-radius: 20px;
   border: none;
+  background-color: var(--platform-color);
 }
 
 /* Main */
@@ -141,6 +143,7 @@ nav {
 
 aside {
   padding: var(--top-distance);
+  background-color: var(--platform-color);
   grid-area: sidebar;
   display: grid;
   gap: 2rem;
