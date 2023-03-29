@@ -21,7 +21,8 @@ main {
 
 /* Header */
 header {
-  padding: 1.5rem 4rem 1rem;
+  padding: 1.5rem 4rem 7rem;
+  align-content: start;
   display: grid;
   grid-template-rows: 1.5rem;
   grid-template-columns: 4fr 1fr;
