@@ -100,6 +100,11 @@ main #projects .project .buttons {
   gap: 1.5rem;
 }
 
+main #announcements .wrapper,
+main #trending .wrapper {
+  width: max(200px, 90%);
+}
+
 main #announcements .wrapper .announcement:first-child {
   padding: 0 0.5em 1em;
 }
