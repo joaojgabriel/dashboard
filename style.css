@@ -14,14 +14,14 @@ html {
 body {
   display: grid;
   grid:
-    "sidebar header" 125px
+    "sidebar header"
     "sidebar main" / minmax(150px, 15%);
   min-height: 100vh;
 }
 
 /* Header */
 header {
-  padding: var(--top-distance) 4rem 7rem;
+  padding: var(--top-distance) 4rem 1rem;
   align-content: start;
   display: grid;
   grid-template-columns: 4fr 1fr;
@@ -90,6 +90,8 @@ main #announcements .wrapper {
 /* Projects */
 main #projects {
   grid-area: projects;
+  display: grid;
+  grid-template-rows: auto 1fr;
 }
 
 main #projects .wrapper {
