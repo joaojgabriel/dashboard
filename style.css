@@ -34,26 +34,31 @@ header > * {
   grid-auto-flow: column;
   gap: 1rem;
 }
-
+/* Search */
 header .search {
   grid-template-columns: min-content min(80%, 600px);
 }
 
+/* Top-Right */
 header .profile {
   grid-template-columns: 1fr;
   justify-items: end;
 }
 
+/* Greeting */
 header .greeting {
   display: grid;
   grid-template-columns: max-content 1fr;
   align-items: center;
 }
 
+/* Actions */
 header .actions button {
   border-radius: 20px;
   border: none;
   background-color: var(--platform-color);
+  color: white;
+  font-weight: bold;
 }
 
 /* Main */
