@@ -61,7 +61,7 @@ main {
   display: grid;
   grid:
     "projects announcements"
-    "projects trending" / 4.5fr 1fr;
+    "projects trending" / 4fr 1fr;
   gap: 2rem;
   padding: 3rem;
   padding-left: 2rem;
