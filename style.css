@@ -67,6 +67,16 @@ main h2 {
   margin-bottom: 0.8em;
 }
 
+/* Cards */
+main #projects .project,
+main #trending .wrapper,
+main #announcements .wrapper {
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+}
+
+/* Projects */
 main #projects {
   grid-area: projects;
 }
@@ -78,15 +88,7 @@ main #projects .wrapper {
   grid-auto-flow: row;
 }
 
-/* Cards */
-main #projects .project,
-main #trending .wrapper,
-main #announcements .wrapper {
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  padding: 2rem;
-}
-
+/* Project */
 main #projects .project {
   display: grid;
   grid-template-rows: minmax(min-content, 150px) auto;
@@ -101,11 +103,7 @@ main #projects .project .buttons {
   gap: 1.5rem;
 }
 
-main #announcements .wrapper,
-main #trending .wrapper {
-  width: max(200px, 90%);
-}
-
+/* Announcements */
 main #announcements .wrapper .announcement:first-child {
   padding: 0 0.5em 1em;
 }
@@ -120,11 +118,16 @@ main #announcements .wrapper .announcement:last-child {
   padding: 1em 0.5em 0;
 }
 
+/* Trending */
 main #trending .wrapper {
   display: grid;
   grid-template-columns: repeat(2, max-content);
   align-items: center;
   gap: 2rem 1rem;
+}
+
+main #trending .wrapper .handle{
+  font-weight: bold;
 }
 
 /* Sidebar */
