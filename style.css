@@ -57,6 +57,12 @@ main {
     "projects trending" / 4fr 1fr;
   gap: 2rem;
   margin: 2rem;
+  font-size: .85rem;
+}
+
+main h2 {
+  font-size: 1.5em;
+  margin-bottom: .8em;
 }
 
 main #projects {
