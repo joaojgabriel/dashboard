@@ -15,7 +15,7 @@ body {
   display: grid;
   grid:
     "sidebar header"
-    "sidebar main" / minmax(150px, 15%);
+    "sidebar main" / minmax(auto, 15%);
   height: 100vh;
 }
 
@@ -188,19 +188,12 @@ aside {
   padding: var(--top-distance);
   background-color: var(--platform-color);
   grid-area: sidebar;
+  min-width: max-content;
 }
 
 aside nav {
   display: grid;
   gap: 4rem;
-}
-
-aside nav button {
-  font-size: 1.25rem;
-}
-
-aside nav button#dashboard {
-  font-size: 1.5rem;
 }
 
 aside nav section {
@@ -213,6 +206,11 @@ aside nav button {
   grid-template-columns: 1fr 2fr;
   place-items: center;
   color: white;
+  font-size: 1.25rem;
+}
+
+aside nav button#dashboard {
+  font-size: 1.5rem;
 }
 
 aside nav button span {
