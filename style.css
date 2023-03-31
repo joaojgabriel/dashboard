@@ -19,11 +19,6 @@ body {
   height: 100vh;
 }
 
-aside nav {
-  display: grid;
-  gap: 4rem;
-}
-
 /* Header */
 header {
   padding: var(--top-distance) 4rem 1rem;
@@ -183,19 +178,15 @@ main #trending .wrapper .handle {
 }
 
 /* Sidebar */
-nav {
-  display: contents;
-}
-
 aside {
   padding: var(--top-distance);
   background-color: var(--platform-color);
   grid-area: sidebar;
+}
+
+aside nav {
   display: grid;
-  gap: 2rem;
-  justify-items: start;
-  align-items: start;
-  grid-template-rows: 1rem 10rem 5rem;
+  gap: 4rem;
 }
 
 aside section {
