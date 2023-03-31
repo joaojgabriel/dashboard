@@ -10,13 +10,19 @@ html {
   --platform-color: rgb(100, 100, 100);
 }
 
-/* General Layout */
+/* General Styles */
 body {
   display: grid;
   grid:
     "sidebar header"
     "sidebar main" / minmax(150px, 15%);
   height: 100vh;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 /* Header */
@@ -55,7 +61,6 @@ header .greeting {
 /* Actions */
 header .actions button {
   border-radius: 20px;
-  border: none;
   background-color: var(--platform-color);
   color: white;
   font-weight: bold;
@@ -198,9 +203,6 @@ aside nav button {
   display: grid;
   grid-template-columns: 1fr 2fr;
   place-items: center;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
   color: white;
 }
 
