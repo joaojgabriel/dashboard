@@ -16,7 +16,7 @@ body {
   grid:
     "sidebar header"
     "sidebar main" / minmax(150px, 15%);
-  min-height: 100vh;
+  height: 100vh;
 }
 
 /* Header */
