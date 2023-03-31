@@ -198,6 +198,9 @@ aside nav button {
   display: grid;
   grid-template-columns: 1fr 2fr;
   place-items: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 aside nav button span {
