@@ -128,7 +128,7 @@ main #announcements .wrapper {
 /* Projects */
 main #projects .wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
   grid-auto-flow: row;
 }
@@ -136,9 +136,10 @@ main #projects .wrapper {
 /* Project */
 main #projects .project {
   display: grid;
-  grid-template-rows: minmax(min-content, 150px) auto;
+  grid-template-rows: minmax(min-content, 80px) auto;
   border-left: 0.5rem solid var(--user-color);
   padding-left: 1.5rem;
+  align-content: space-between;
 }
 
 main #projects .project .buttons {
