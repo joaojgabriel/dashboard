@@ -19,6 +19,11 @@ body {
   height: 100vh;
 }
 
+aside nav {
+  display: grid;
+  gap: 4rem;
+}
+
 /* Header */
 header {
   padding: var(--top-distance) 4rem 1rem;
