@@ -189,7 +189,17 @@ aside nav {
   gap: 4rem;
 }
 
-aside section {
+aside nav section {
   display: grid;
   gap: 0.5rem;
+}
+
+aside nav button {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  place-items: center;
+}
+
+aside nav button span {
+  justify-self: start;
 }
