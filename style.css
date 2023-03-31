@@ -207,6 +207,7 @@ aside nav button {
   place-items: center;
   color: white;
   font-size: 1.25rem;
+  font-weight: bold;
 }
 
 aside nav button#dashboard {
