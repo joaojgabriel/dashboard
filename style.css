@@ -201,6 +201,7 @@ aside nav button {
   border: none;
   background-color: transparent;
   cursor: pointer;
+  color: white;
 }
 
 aside nav button span {
