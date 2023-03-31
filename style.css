@@ -205,7 +205,7 @@ aside nav button#dashboard {
 
 aside nav section {
   display: grid;
-  gap: 0.5rem;
+  gap: 2rem;
 }
 
 aside nav button {
