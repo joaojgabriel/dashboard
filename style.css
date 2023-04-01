@@ -35,6 +35,7 @@ header {
   gap: 2rem;
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.3);
   font-weight: bold;
+  align-items: center;
 }
 
 header > * {
@@ -79,6 +80,7 @@ header .actions button {
   border-radius: 20px;
   background-color: var(--platform-color);
   color: white;
+  padding: .5rem;
 }
 
 header button span {
