@@ -15,7 +15,7 @@ html {
 body {
   display: grid;
   grid:
-    "sidebar header" 150px
+    "sidebar header" 188px
     "sidebar main" / minmax(auto, 15%);
   height: 100vh;
 }
@@ -28,7 +28,7 @@ button {
 
 /* Header */
 header {
-  padding: var(--top-distance) 4rem 1rem;
+  padding: var(--top-distance) 4rem;
   align-content: start;
   display: grid;
   grid-template-columns: 3fr 2fr;
@@ -63,7 +63,7 @@ header .profile {
   font-size: 1.25rem;
 }
 
-header .profile .avatar {
+header .profile img {
   justify-self: center;
 }
 
