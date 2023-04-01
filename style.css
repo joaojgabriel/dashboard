@@ -75,6 +75,14 @@ header .greeting {
   align-items: center;
 }
 
+header .greeting p.hi {
+  font-size: .9rem;
+}
+
+header .greeting p:not(.hi) {
+  font-size: 1.7rem;
+}
+
 /* Actions */
 header .actions button {
   border-radius: 20px;
