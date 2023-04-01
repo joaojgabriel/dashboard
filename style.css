@@ -6,8 +6,8 @@
 
 html {
   --top-distance: 1.5rem;
-  --user-color: grey;
-  --platform-color: rgb(100, 100, 100);
+  --user-color: #D55967;
+  --platform-color: #8959D5;
   --neutral: #E2E8F0;
 }
 
