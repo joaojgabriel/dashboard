@@ -8,6 +8,7 @@ html {
   --top-distance: 1.5rem;
   --user-color: grey;
   --platform-color: rgb(100, 100, 100);
+  --neutral: #E2E8F0;
 }
 
 /* General Styles */
@@ -43,6 +44,10 @@ header > * {
 /* Search */
 header .search {
   grid-template-columns: min-content min(80%, 600px);
+}
+
+header .search input {
+  background-color: #E2E8F0;
 }
 
 /* Top-Right */
@@ -84,6 +89,7 @@ main {
   padding-left: 2rem;
   font-size: 0.9rem;
   overflow: scroll;
+  background: #E2E8F0;
 }
 
 h2.projects {
@@ -129,6 +135,7 @@ main #announcements .wrapper {
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   padding: 2rem;
+  background: white;
 }
 
 /* Projects */
