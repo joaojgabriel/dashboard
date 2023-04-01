@@ -14,7 +14,7 @@ html {
 body {
   display: grid;
   grid:
-    "sidebar header"
+    "sidebar header" 150px
     "sidebar main" / minmax(auto, 15%);
   height: 100vh;
 }
@@ -49,6 +49,7 @@ header .search {
 header .profile {
   grid-template-columns: 1fr;
   justify-items: end;
+  align-items: center;
 }
 
 /* Greeting */
