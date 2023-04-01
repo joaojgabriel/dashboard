@@ -30,7 +30,7 @@ header {
   padding: var(--top-distance) 4rem 1rem;
   align-content: start;
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 3fr 2fr;
   gap: 2rem;
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.3);
 }
