@@ -60,8 +60,8 @@ header .search input {
 /* Top-Right */
 header .profile {
   grid-template-columns: auto 1fr 7fr;
-  justify-items: start;
-  align-items: center;
+  justify-self: center;
+  place-items: center;
   font-size: 1.25rem;
 }
 
