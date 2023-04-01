@@ -10,13 +10,13 @@ html {
   --user-color: #d55967;
   --platform-color: #8959d5;
   --neutral: #e2e8f0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
   display: grid;
   grid:
-    "sidebar header" 188px
+    "sidebar header"
     "sidebar main" / minmax(auto, 15%);
   height: 100vh;
 }
@@ -29,14 +29,15 @@ button {
 
 /* Header */
 header {
-  padding: var(--top-distance) 4rem;
+  padding: var(--top-distance) 4rem 1rem;
   align-content: start;
   display: grid;
   grid-template-columns: 3fr 2fr;
   gap: 2rem;
-  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 10px -6px rgba(0, 0, 0, 0.1);
   font-weight: bold;
   align-items: center;
+  z-index: 1;
 }
 
 header > * {
@@ -71,12 +72,12 @@ header .profile img {
 /* Greeting */
 header .greeting {
   display: grid;
-  grid-template-columns: max-content 1fr;
+  grid-template-columns: repeat(2, max-content);
   align-items: center;
 }
 
 header .greeting p.hi {
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 header .greeting p:not(.hi) {
