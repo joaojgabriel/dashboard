@@ -58,7 +58,7 @@ header .search input {
 
 /* Top-Right */
 header .profile {
-  grid-template-columns: auto 1fr 5fr;
+  grid-template-columns: auto 1fr 7fr;
   justify-items: start;
   align-items: center;
   font-size: 1.25rem;
@@ -164,6 +164,10 @@ main #projects .project {
   border-left: 0.5rem solid var(--user-color);
   padding-left: 1.5rem;
   align-content: space-between;
+}
+
+main #projects .project .content > *:not(h3) {
+  color: rgb(111,111,111);
 }
 
 main #projects .project .buttons {
