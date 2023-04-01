@@ -36,10 +36,6 @@ header {
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.3);
 }
 
-header button > span {
-  font-size: 1.25rem;
-}
-
 header > * {
   display: grid;
   grid-auto-flow: column;
@@ -51,7 +47,9 @@ header .search {
 }
 
 header .search input {
-  background-color: #E2E8F0;
+  background-color: var(--neutral);
+  border: none;
+  border-radius: 10px;
 }
 
 /* Top-Right */
@@ -81,6 +79,10 @@ header .actions button {
   font-weight: bold;
 }
 
+header button > span {
+  font-size: 1.25rem;
+}
+
 /* Main */
 main > * {
   display: contents;
@@ -94,7 +96,7 @@ main {
   padding-left: 2rem;
   font-size: 0.9rem;
   overflow: scroll;
-  background: #E2E8F0;
+  background: var(--neutral);
 }
 
 h2.projects {
