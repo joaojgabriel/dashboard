@@ -47,9 +47,13 @@ header .search {
 
 /* Top-Right */
 header .profile {
-  grid-template-columns: 1fr;
-  justify-items: end;
+  grid-template-columns: auto 1fr 5fr;
+  justify-items: start;
   align-items: center;
+}
+
+header .profile .avatar {
+  justify-self: center;
 }
 
 /* Greeting */
@@ -115,6 +119,7 @@ h2.trending {
 main h2 {
   font-size: 1.4em;
   margin-bottom: 0.8em;
+  color: rgb(73, 73, 73);
 }
 
 /* Cards */
@@ -133,7 +138,6 @@ main #projects .wrapper {
   gap: 2rem;
   grid-auto-flow: row;
 }
-
 /* Project */
 main #projects .project {
   display: grid;
@@ -152,9 +156,9 @@ main #projects .project .buttons {
 
 /* Announcements */
 .announcements.wrapper {
-  display:grid;
-  place-content:center;
-  font-size: .85em;
+  display: grid;
+  place-content: center;
+  font-size: 0.85em;
   margin-bottom: 2rem;
 }
 
