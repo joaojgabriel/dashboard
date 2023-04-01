@@ -36,6 +36,10 @@ header {
   box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.3);
 }
 
+header button > span {
+  font-size: 1.25rem;
+}
+
 header > * {
   display: grid;
   grid-auto-flow: column;
@@ -55,6 +59,7 @@ header .profile {
   grid-template-columns: auto 1fr 5fr;
   justify-items: start;
   align-items: center;
+  font-size: 1.25rem;
 }
 
 header .profile .avatar {
